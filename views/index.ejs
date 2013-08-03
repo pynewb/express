@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Testing express (connect) static</title>
+    </head>
+    <body>
+        <h1>Served as static</h1>
+        <p>Ok now</p>
+        <form name="bad" method="post" action="/">
+            <input type="submit" value="Fail CSRF"/>
+        </form>
+        <form name="good" method="post" action="/">
+            <input type="hidden" name="_csrf" value="<%= csrf %>"/>
+            <input type="submit" value="Pass CSRF"/>
+        </form>
+    </body>
+</html>
