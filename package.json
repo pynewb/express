@@ -1,0 +1,18 @@
+{
+  "name": "test3",
+  "version": "0.0.3",
+  "author": "pynewb <pynewb@github.com>",
+  "description": "a simple express test in development",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pynewb/express.git"
+  },
+  "dependencies" : {
+    "express"   :  "3.4.8",
+    "ejs" : "0.8.5"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6"
+  }
+}
